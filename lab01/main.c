@@ -63,6 +63,11 @@ int main()
       };
       difference = max_element - min_element;
       printf("difference = %f \n", difference);
+   }
+   else
+   {
+      min_element = max_element = d1;
+      printf("min_element = %f \n max_lement = %f", min_element, max_element);
    };
 
    return 0;
